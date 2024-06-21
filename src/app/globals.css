@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  scroll-behavior: smooth;
+}
+.btnn {
+  transition: all 0.2s ease-in-out;
+}
+.btnn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 10px;
+  transform: translateY(-3px);
+}
+.nav-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.contactInput {
+  @apply outline-none bg-slate-500/20 rounded-md font-[500] text-black placeholder-gray-600 placeholder:font-semibold transition-all px-6 py-4;
+}
+.shadow-contact {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.3s ease-in-out;
+}
+.shadow-contact:hover {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 34px;
+  transform: translateY(-4px);
+}
+
+@media only screen and (min-width: 640px) {
+   .swiper-slide{
+     width: fit-content !important;
+    }
+}
+
+ .swiper-button-disabled{
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
+  
+ }
+ .swiper-button-disabled:hover{
+  transform: scale(1) !important;
+ }
