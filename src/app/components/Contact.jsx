@@ -32,7 +32,7 @@ const Contact = () => {
             </p>
 
             <a
-              href="mailto:biuro@beltowksa.pl"
+              href="mailto:biuro@beltowska.pl"
               className="text-lg lowercase hover:text-blue-950 font-medium underline"
             >
               BIURO@BELTOWSKA.PL
@@ -102,21 +102,25 @@ const Contact = () => {
               <br /> 34-400 Nowy Targ
             </p>
             <div className="flex gap-4 items-center justify-center">
-            <a href="https://maps.apple.com/?address=Grel%20Boczna%2040,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482962,20.002036&q=Grel%20Boczna%2040&t=h">
-           <Image
-           width={100}
-           height={100}
-           src="/amap.png" alt="" className="w-[50px] h-[65px] object-cover" />
-
-            </a>
-            <a href="https://www.google.com/maps/place/Grel+Boczna+40,+34-400+Nowy+Targ,+Poland/@49.4834684,20.0000435,16z/data=!4m6!3m5!1s0x4715e5f976191237:0xfbf0af8066d34a65!8m2!3d49.4838267!4d19.9988899!16s%2Fg%2F11hsv43v8s">
-           <Image
-           
-           width={100}
-           height={100}
-           src="/gmap.png" alt="" className="w-[50px] h-[50px] object-cover" />
-           </a>
-           </div>
+              <a href="https://maps.apple.com/?address=Grel%20Boczna%2040,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482962,20.002036&q=Grel%20Boczna%2040&t=h">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/amap.png"
+                  alt=""
+                  className="w-[50px] h-[65px] object-cover"
+                />
+              </a>
+              <a href="https://www.google.com/maps/place/Grel+Boczna+40,+34-400+Nowy+Targ,+Poland/@49.4834684,20.0000435,16z/data=!4m6!3m5!1s0x4715e5f976191237:0xfbf0af8066d34a65!8m2!3d49.4838267!4d19.9988899!16s%2Fg%2F11hsv43v8s">
+                <Image
+                  width={100}
+                  height={100}
+                  src="/gmap.png"
+                  alt=""
+                  className="w-[50px] h-[50px] object-cover"
+                />
+              </a>
+            </div>
           </motion.div>
           <motion.div
             variants={slideInFromBottom(0.7, 60)}
@@ -150,7 +154,9 @@ const Contact = () => {
           viewport={onceTrue}
           className="text-center mt-8"
         >
-          <p className="text-2xl font-semibold mt-7 mb-4">Gotowy do kontaktu?</p>
+          <p className="text-2xl font-semibold mt-7 mb-4">
+            Gotowy do kontaktu?
+          </p>
           <a
             href="tel:508570286"
             className="font-semibold btnn uppercase mx-auto text-center px-7 py-3 transition-all duration-100 ease-linear bg-white border-main border hover:bg-main hover:text-white  rounded-md inline-block text-main"
