@@ -7,10 +7,10 @@ import { onceTrue } from "../utils/motion";
 
 const Skills = () => {
   const skills = [
-    { title: "Wycen domów", percent: 270  },
-    { title: "Wycen działek", percent: 320 },
-    { title: "Wycen bankowych", percent: 150 },
-    { title: "Innych wycen", percent: 180 },
+    { title: "Wycen domów", percent: 55 },
+    { title: "Wycen działek", percent: 67 },
+    { title: "Wycen bankowych", percent: 37 },
+    { title: "Innych wycen", percent: 58 },
   ];
 
   return (
@@ -46,7 +46,9 @@ const Skills = () => {
                   <span className="text-xl lg:text-3xl text-center font-semibold">
                     <CountUp start={0} end={skill.percent} delay={0} />
                   </span>
-                  <h2 className="text-center text-xs px-4 lg:text-md">{skill.title}</h2>
+                  <h2 className="text-center text-xs px-4 lg:text-md">
+                    {skill.title}
+                  </h2>
                 </div>
               </div>
             </motion.div>

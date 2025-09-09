@@ -20,7 +20,7 @@ const Hero = () => {
               whileInView={"visible"}
               viewport={onceTrue}
               className="h-full w-full object-cover rounded-full border-[12px] border-white"
-              src="/hero.png"
+              src="/hero.jpg"
               alt="Image"
             />
           </div>
@@ -41,7 +41,7 @@ const Hero = () => {
           className="mt-10 lg:mt-0 lg:w-1/2 text-center sm:text-left"
         >
           <h2 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
-          Rzeczoznawca Majątkowy <br /> Natalia Bełtowska
+            Rzeczoznawca Majątkowy <br /> Natalia Bełtowska
           </h2>
           <p className="mt-3 text-lg leading-7 text-gray-600">
             Ekspertyza i Doświadczenie w Twoim Zasięgu
