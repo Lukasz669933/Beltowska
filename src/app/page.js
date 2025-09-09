@@ -12,7 +12,7 @@ import Logos from "./components/Logos";
 
 export const metadata = {
   title: "Rzeczoznawca Majątkowy",
-  description: "Wycena Nieruchomości Nowy Targ Natalia Bełtowska",
+  description: "Wycena Nieruchomości Nowy Targ Natalia Bełtowska-Warciak",
 };
 
 export default function Home() {

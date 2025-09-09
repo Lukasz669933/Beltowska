@@ -10,7 +10,7 @@ const lato = Lato({
 
 export const metadata = {
   title: "Rzeczoznawca Majątkowy",
-  description: "Wycena Nieruchomości Nowy Targ Natalia Bełtowska",
+  description: "Wycena Nieruchomości Nowy Targ Natalia Bełtowska-Warciak",
 };
 
 export default function RootLayout({ children }) {
