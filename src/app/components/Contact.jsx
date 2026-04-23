@@ -102,7 +102,7 @@ const Contact = () => {
               <br /> 34-400 Nowy Targ
             </p>
             <div className="flex gap-4 items-center justify-center">
-              <a href="https://maps.apple.com/?address=Grel%20Boczna%2040,%2034-400%20Nowy%20Targ,%20Poland&ll=49.48384,19.99919&q=Grel%20Boczna%2040&t=h">
+              <a href="https://maps.apple.com/?ll=49.48384,19.99919&q=Grel%20Boczna%2040,%20Nowy%20Targ&t=h">
                 <Image
                   width={100}
                   height={100}
