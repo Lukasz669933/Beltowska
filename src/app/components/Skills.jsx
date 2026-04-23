@@ -7,10 +7,10 @@ import { onceTrue } from "../utils/motion";
 
 const Skills = () => {
   const skills = [
-    { title: "Wycen domów", percent: 55 },
-    { title: "Wycen działek", percent: 67 },
-    { title: "Wycen bankowych", percent: 37 },
-    { title: "Innych wycen", percent: 58 },
+    { title: "Wycen domów", percent: 340 },
+    { title: "Wycen działek", percent: 422 },
+    { title: "Wycen bankowych", percent: 199 },
+    { title: "Innych wycen", percent: 291 },
   ];
 
   return (

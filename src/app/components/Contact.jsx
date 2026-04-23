@@ -102,7 +102,7 @@ const Contact = () => {
               <br /> 34-400 Nowy Targ
             </p>
             <div className="flex gap-4 items-center justify-center">
-              <a href="https://maps.apple.com/?address=Grel%20Boczna%2040,%2034-400%20Nowy%20Targ,%20Poland&ll=49.482962,20.002036&q=Grel%20Boczna%2040&t=h">
+              <a href="https://maps.apple.com/?address=Grel%20Boczna%2040,%2034-400%20Nowy%20Targ,%20Poland&ll=49.48384,19.99919&q=Grel%20Boczna%2040&t=h">
                 <Image
                   width={100}
                   height={100}
@@ -111,7 +111,7 @@ const Contact = () => {
                   className="w-[50px] h-[65px] object-cover"
                 />
               </a>
-              <a href="https://www.google.com/maps/place/Grel+Boczna+40,+34-400+Nowy+Targ,+Poland/@49.4834684,20.0000435,16z/data=!4m6!3m5!1s0x4715e5f976191237:0xfbf0af8066d34a65!8m2!3d49.4838267!4d19.9988899!16s%2Fg%2F11hsv43v8s">
+              <a href="https://www.google.com/maps/place/Grel+Boczna+40,+34-400+Nowy+Targ,+Poland/@49.48384,19.99919,16z">
                 <Image
                   width={100}
                   height={100}
