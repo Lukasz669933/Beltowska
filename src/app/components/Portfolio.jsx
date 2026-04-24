@@ -10,7 +10,7 @@ const Portfolio = () => {
     { image: "/certificatee44.png", title: "Certyfikat 1" },
     { image: "/certificate1.jpg", title: "Certyfikat 2" },
     { image: "/certificatee2.jpg", title: "Certyfikat 3" },
-    { image: "/certificate33.jpg", title: "Certyfikat 4" },
+    { image: "/certificate88.png", title: "Certyfikat 4" },
   ];
 
   return (
@@ -28,9 +28,8 @@ const Portfolio = () => {
               whileInView={"visible"}
               viewport={onceTrue}
               key={index}
-              className={`bg-white rounded-lg group shadow-lg overflow-hidden relative ${
-                index === 0 ? "lg:col-span-2 lg:row-span-2 " : ""
-              }`}
+              className={`bg-white rounded-lg group shadow-lg overflow-hidden relative ${index === 0 ? "lg:col-span-2 lg:row-span-2 " : ""
+                }`}
             >
               <Image
                 src={project.image}

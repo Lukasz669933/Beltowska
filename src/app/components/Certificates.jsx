@@ -18,7 +18,7 @@ const certificates = [
   { image: "/certificatee44.png", title: "Certyfikat 1" },
   { image: "/certificate1.jpg", title: "Certyfikat 2" },
   { image: "/certificatee2.jpg", title: "Certyfikat 3" },
-  { image: "/certificate33.jpg", title: "Certyfikat 4" },
+  { image: "/certificate88.png", title: "Certyfikat 4" },
 ];
 
 const Certificates = () => {
